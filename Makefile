@@ -23,4 +23,4 @@ go.sum: go.mod
 		GO111MODULE=on go mod verify
 
 test:
-	@go test -mod=readonly $(PACKAGES)s
+	@go test -mod=readonly $(PACKAGES)
