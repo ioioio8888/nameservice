@@ -1,4 +1,4 @@
-module github.com/cosmos/sdk-tutorials/nameservice
+module github.com/ioioio8888/nameservice
 
 go 1.13
 
