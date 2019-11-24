@@ -1,4 +1,4 @@
-package nameservice
+package keeper
 
 import (
 	"github.com/cosmos/cosmos-sdk/codec"
