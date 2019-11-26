@@ -2,14 +2,8 @@ package rest
 
 import (
 	"fmt"
-	"net/http"
 
 	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/ioioio8888/nameservice/x/nameservice/types"
-
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/rest"
 
 	"github.com/gorilla/mux"
 )

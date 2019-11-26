@@ -39,7 +39,7 @@ func queryResolve(ctx sdk.Context, path []string, req abci.RequestQuery, keeper 
 		return []byte{}, sdk.ErrUnknownRequest("could not resolve name")
 	}
 
-	res, err := codec.MarshalJSONIndent(keeper.cdc, QueryResResolve{value})
+	res, err := codec.MarshalJSONIndent(keeper.cdc, types.QueryResResolve{Value: value})
 	if err != nil {
 		panic("could not marshal result to JSON")
 	}
